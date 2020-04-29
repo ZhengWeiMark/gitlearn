@@ -1,0 +1,24 @@
+查看历史记录
+git log					#详细版本线
+git log --pretty=oneline   #单行
+git reflog  #所有提交和回退
+
+初始化库
+git init
+
+清除工作区
+git checkout -- <file>
+
+清除暂存区
+git reset HEAD <file>
+git restore --staged <file>
+
+写入暂存区
+git add <file>
+
+直接提交库
+git commit -a -m '备注'
+
+回退并更新工作区
+git reset --hard HEAD^    #上个版本
+git reset --hard 版本号   # 特定版本
