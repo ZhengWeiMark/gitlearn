@@ -31,3 +31,11 @@ git reset --hard 版本号   # 特定版本
 删文件
 git del <file>
 git commit -m
+
+绑定远端库
+ git remote add origin git@github.com:ZhengWeiMark/gitlearn.git
+
+第一次推送
+git push -u origin master
+
+
