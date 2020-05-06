@@ -32,10 +32,24 @@ git reset --hard 版本号   # 特定版本
 git del <file>
 git commit -m
 
-绑定远端库
+本地库绑定远端库
+创建远程空仓库
  git remote add origin git@github.com:ZhengWeiMark/gitlearn.git
 
 第一次推送
 git push -u origin master
 
 
+
+从远程复制新库
+已有远程库
+git clone git@github.com:ZhengWeiMark/gitskills2.git
+
+创建分支
+git checkout -b dev
+等同于
+git branch  dev
+git checkout  dev
+
+查看分支
+git branch
