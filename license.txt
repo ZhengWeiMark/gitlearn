@@ -7,8 +7,11 @@ git reflog  #所有提交和回退
 git init
 
 add文件到暂存
- git add  license.txt
+git add  license.txt
 git add  .
+
+work内容与stage相同吗？
+staged文件又被修改了
 
 提交一个文件
  git commit -m 'one file'  license.txt
