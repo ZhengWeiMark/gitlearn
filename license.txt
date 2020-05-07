@@ -10,11 +10,18 @@ add文件到暂存
 git add  license.txt
 git add  .
 
-work内容与stage相同吗？
-staged文件又被修改了
+
+staged文件又被修改了，commit后没有diff,
+说明work内容与stage相同
+
+工作区有diff,add 后就没有diff了
+
 
 提交一个文件
  git commit -m 'one file'  license.txt
+ 
+ 提交暂存区入库
+git commit -m 'memo'
 
 工作区版本比较
 git diff  #全部文件
@@ -37,8 +44,7 @@ git reset --hard HEAD^
 写入暂存区     
 git add <file
 
-提交暂存区入库
-git commit -m 'memo'
+
 
 直接提交修改入库
 git commit -a -m '备注'
