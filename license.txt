@@ -6,6 +6,13 @@ git reflog  #所有提交和回退
 初始化库
 git init
 
+add文件
+ git add  license.txt
+git add  .
+
+提交一个文件
+ git commit -m 'one file'  license.txt
+
 工作区版本比较
 git diff  #全部文件
 git diff -- <file> #单个文件
