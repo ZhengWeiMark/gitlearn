@@ -92,3 +92,5 @@ git merge dev
 git branch -d dev
 
 master
+dev+master
+dev
