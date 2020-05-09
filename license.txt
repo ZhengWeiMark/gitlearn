@@ -91,4 +91,6 @@ git merge dev
 删除分支
 git branch -d dev
 
-master+master
+解决冲突
+在一个分支commit,和另一个分支commit后，结果有冲突
+打开文件修改，然后commit
