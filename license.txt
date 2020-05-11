@@ -94,3 +94,6 @@ git branch -d dev
 解决冲突
 在一个分支commit,和另一个分支commit后，结果有冲突
 打开文件修改，然后commit
+
+git diff  #工作区和暂存区比较
+git diff --staged #暂存区和本地库比较
