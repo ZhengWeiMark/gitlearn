@@ -106,4 +106,9 @@ git log --graph --pretty=oneline --abbrev-commit
 vim 
 退出 ：q
 
+git stash #隐藏dev现场，包括工作区和暂存区
+git checkout master #在master上修复
+git checkout -b issue #新建修复分支
+
+
 
