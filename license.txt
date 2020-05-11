@@ -100,3 +100,5 @@ git log --graph --pretty=oneline --abbrev-commit
 
 vim 
 退出 ：q
+
+每个分支都有自己的工作区和暂存区
