@@ -93,4 +93,10 @@ git branch -d dev
 
 解决冲突
 在一个分支commit,和另一个分支commit后，结果有冲突
-打开文件修改，然后commit
+打开文件修改，然后add , commit
+
+图形化显示版本合并路径
+git log --graph --pretty=oneline --abbrev-commit
+
+vim 
+退出 ：q
