@@ -109,6 +109,10 @@ vim
 git stash #隐藏dev现场，包括工作区和暂存区
 git checkout master #在master上修复
 git checkout -b issue #新建修复分支
+修改合并入master
+
+git merge --no-ff -m 'fix bug101' issue101 #保留中间版本
+
 
 
 
