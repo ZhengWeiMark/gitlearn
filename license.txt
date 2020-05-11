@@ -97,6 +97,7 @@ git branch -d dev
 
 git diff  #工作区和暂存区比较
 git diff --staged #暂存区和本地库比较
+git diff HEAD  #工作区和Head比较
 每个分支都有自己的工作区和暂存区
 
 
@@ -106,4 +107,8 @@ git log --graph --pretty=oneline --abbrev-commit
 vim 
 退出 ：q
 
+开发版本在dev,未完成时来了bug，储藏现场
+
+git stash list #查看现场
+git stash pop #恢复现场，未add状态
 
