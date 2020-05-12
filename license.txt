@@ -58,18 +58,15 @@ git del <file>
 git commit -m
 
 本地库绑定远端库
-创建远程空仓库
- git remote add origin git@github.com:ZhengWeiMark/gitlearn.git
-
-第一次推送
+先创建远程空仓库,然后git remote add origin git@github.com:ZhengWeiMark/gitlearn.git
+然后第一次推送
 git push -u origin master
 推送
-git push 
+git push #推送当前分支
 
 
 从远程复制新库
-已有远程库
-git clone git@github.com:ZhengWeiMark/gitskills2.git
+已有远程库，然后git clone git@github.com:ZhengWeiMark/gitskills2.git
 
 创建分支
 git switch -c feature1
@@ -121,11 +118,23 @@ git stash list #查看现场
 git stash pop #恢复现场，未add状态
 
 
-在dev分支工作，有新功能的增加
+在dev分支工作，有新功能的增加，建新分支，
+git branch -D 删除未合并分支
 
-git checkout -b devvv origin/dev  #从远程库拉取分支
+远程协作
+git  remote -v  #看远程库详情
+git push origin dev #指定分支上传远程库
+git clone git@zhengwei #克隆远程库的master分支到目录下
 
+git checkout -b devvv origin/dev  #克隆远程dev分支
 git push --set-upstream origin dev  #给当前分支设置远程库的对应上传分支，并传送
 git push # 上传当前分支
+
+ git push origin HEAD:dev #推送到指定名字的分支
+ 如果与远程库有版本冲突，先pull,解决冲突后再push
+ git pull
+ 
+
+
 
 
