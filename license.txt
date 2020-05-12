@@ -123,6 +123,9 @@ git stash pop #恢复现场，未add状态
 
 在dev分支工作，有新功能的增加
 
+git checkout -b devvv origin/dev  #从远程库拉取分支
 
+git push --set-upstream origin dev  #给当前分支设置远程库的对应上传分支，并传送
+git push # 上传当前分支
 
 
