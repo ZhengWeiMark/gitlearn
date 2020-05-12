@@ -131,8 +131,9 @@ git push --set-upstream origin dev  #给当前分支设置远程库的对应上�
 git push # 上传当前分支
 
  git push origin HEAD:dev #推送到指定名字的分支
- 如果与远程库有版本冲突，先pull,解决冲突后再push
+ 如果失败，说明远程有更新，或与远程库有版本冲突，先pull,解决冲突后再push
  git pull
+ 
  
 
 
